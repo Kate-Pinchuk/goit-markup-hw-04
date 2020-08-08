@@ -10,7 +10,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -33,14 +33,20 @@
         <!-- Контакты -->
         <ul class="list menu-list">
           <li class="contacts-link">
-            <a class="link link-grey" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+            <a class="link" href="mailto:info@devstudio.com">
+              <svg class="contacts-icon" width="16" height="12">
+                <use href="./img/icons/sprite.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
           <li class="contacts-link">
-            <a class="link link-grey" href="tel:380961111111"
-              >+38 096 111 11 11</a
-            >
+            <a class="link" href="tel:380961111111">
+              <svg class="contacts-icon" width="10" height="16">
+                <use href="./img/icons/sprite.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
@@ -258,35 +264,58 @@
       <div class="container">
         <div class="footer-address">
           <a class="logo" href="./index.html"><span>Web</span> Studio</a>
-          <br>
+          <br />
           <span class="text text-white">
             г. Киев, пр-т Леси Украинки, 26
           </span>
-            <br>
-            <span>
-            <a
-              class="link link-grey link-bigger"
-              href="mailto:info@devstudio.com"
-              >info@devstudio.com</a>
+          <br />
+          <span>
+            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </span>
-            <br>
-            <span>
-            <a class="link link-grey link-bigger" href="tel:380961111111"
-              >+38 096 111 11 11</a
-            >
+          <br />
+          <span>
+            <a class="link" href="tel:380961111111">+38 096 111 11 11</a>
           </span>
         </div>
-
+    
         <div class="contact-us">
           <b class="contact-us-item">присоединяйтесь</b>
           <ul class="list menu-list">
-            <li><a href="" aria-label="Ссылка на Instagram">Instagram</a></li>
-            <li><a href="" aria-label="Ссылка на Twitter">Twitter</a></li>
-            <li><a href="" aria-label="Ссылка на Facebook">Facebook</a></li>
-            <li><a href="" aria-label="Ссылка на LinkedIn">LinkedIn</a></li>
+            <li class="social-icons-list">
+              <a href="https://www.instagram.com/" class="social-icons-footer" target="_blank" rel="noopener noreferrer"
+                aria-label="Cсылка на Инстаграм">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./img/icons/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-icons-list">
+              <a href="https://twitter.com/" class="social-icons-footer" target="_blank" rel="noopener noreferrer"
+                aria-label="Ссылка на Twitter">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./img/icons/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-icons-list">
+              <a href="https://facebook.com/" class="social-icons-footer" target="_blank" rel="noopener noreferrer"
+                aria-label="Ссылка на Facebook">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./img/icons/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li class="social-icons-list">
+            <li>
+              <a href="https://linkedin.com/" class="social-icons-footer" target="_blank" rel="noopener noreferrer"
+                aria-label="Ссылка на LinkedIn">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./img/icons/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
         </div>
-
+    
         <div class="contact-us-item">
           Подпишитесь на рассылку
         </div>
