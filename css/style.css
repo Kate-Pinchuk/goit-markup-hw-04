@@ -36,6 +36,9 @@ html {
   padding: 0;
   margin: 0;
 }
+.list .link.current {
+  color: var(--accent-color);
+}
 .feature-list {
   display: flex;
   justify-content: flex-end;
@@ -121,10 +124,6 @@ html {
   color: var(--primary-white-color);
 }
 .hero {
-  text-align: center;
-}
-
-.hero .container {
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -134,10 +133,11 @@ html {
   background-color: #c4c4c4;
   background-size: cover;
   background-position: center;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   height: 600px;
-  width: 1600px;
+  max-width: 1600px;
 }
 .hero-title {
   font-weight: 900;
