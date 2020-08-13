@@ -329,7 +329,7 @@ html {
   padding-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
+  /* width: 1600px; */
 }
 .footer > .container {
   display: flex;
